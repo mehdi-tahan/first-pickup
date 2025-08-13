@@ -1,0 +1,40 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+.video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+video {
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+.content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    top: 40%;
+    transform: translateY(-50%);
+}
+.logo {
+    width: 300px;
+    max-width: 80%;
+}
+.social-icons {
+    margin-top: 20px;
+}
+.social-icons img {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    cursor: pointer;
+}
